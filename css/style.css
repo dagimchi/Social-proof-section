@@ -24,14 +24,18 @@ main {
   margin: 0 auto;
 }
 
+/* ***************************************
+TOP PORTION USING FLEXBOX FOR LAYOUT
+*************************************** */
 .top {
   display: flex;
   gap: 125px;
   margin-bottom: 4.4375rem;
 }
 
+/* To define the sub-container width */
 .products {
-  flex-basis: 445px;
+  flex-basis: 27.8125rem;
 }
 
 .heading {
@@ -85,6 +89,9 @@ main {
   transform: translateX(100px);
 }
 
+/* ***************************************
+BOTTOM PORTION USING GRID FOR LAYOUT
+*************************************** */
 .bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
